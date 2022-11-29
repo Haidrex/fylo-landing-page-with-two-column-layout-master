@@ -1,0 +1,13 @@
+.button {
+	padding: 1rem 3rem;
+	border: none;
+	border-radius: 5px;
+	background-color: $bright-blue;
+	color: $light-grayish-blue;
+	font-weight: 700;
+
+	&:hover {
+		cursor: pointer;
+		background-color: $light-gray;
+	}
+}
