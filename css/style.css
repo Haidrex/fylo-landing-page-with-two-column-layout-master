@@ -200,3 +200,21 @@ p {
     @media (min-width: 75em) {
       .hero__form button {
         max-width: 30%; } }
+
+.main-section {
+  display: flex;
+  flex-direction: column; }
+
+.main-content {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: calc(1rem + 2vw);
+  background-color: #f6f6fe; }
+
+.main-content__right {
+  width: 100%; }
+  .main-content__right img {
+    max-width: 100%; }
+  @media (min-width: 50em) {
+    .main-content__right {
+      max-width: 50%; } }
