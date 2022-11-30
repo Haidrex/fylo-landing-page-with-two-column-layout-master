@@ -1,0 +1,38 @@
+footer {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: calc(1rem + 3vw);
+	background-color: $very-dark-blue;
+	color: $light-grayish-blue;
+
+	@media (min-width: 50em) {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.contact-info {
+	.logo {
+		margin-bottom: 1rem;
+	}
+
+	p {
+		img {
+			margin-right: 1rem;
+			vertical-align: text-bottom;
+		}
+	}
+}
+
+.footer-nav {
+	li {
+		margin-bottom: 1rem;
+	}
+}
+
+.socials {
+	img {
+		margin-right: 1rem;
+	}
+}
