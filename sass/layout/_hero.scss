@@ -19,6 +19,12 @@
 
 	@media (min-width: 50em) {
 		text-align: left;
+
+		form {
+			button {
+				max-width: 30%;
+			}
+		}
 	}
 }
 

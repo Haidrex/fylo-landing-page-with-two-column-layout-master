@@ -1,5 +1,5 @@
 .button {
-	padding: 1rem 3rem;
+	padding: 1rem;
 	border: none;
 	border-radius: 5px;
 	background-color: $bright-blue;
@@ -8,6 +8,6 @@
 
 	&:hover {
 		cursor: pointer;
-		background-color: $light-gray;
+		opacity: 0.7;
 	}
 }

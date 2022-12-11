@@ -1,10 +1,13 @@
 footer {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
 	padding: calc(1rem + 3vw);
 	background-color: $very-dark-blue;
 	color: $light-grayish-blue;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 
 	@media (min-width: 50em) {
 		flex-direction: row;
@@ -12,12 +15,13 @@ footer {
 	}
 }
 
-.contact-info {
-	.logo {
-		margin-bottom: 1rem;
-	}
+.logo {
+	margin-bottom: 2rem;
+}
 
+.contact-info {
 	p {
+		margin-bottom: 1rem;
 		img {
 			margin-right: 1rem;
 			vertical-align: text-bottom;
@@ -28,11 +32,30 @@ footer {
 .footer-nav {
 	li {
 		margin-bottom: 1rem;
+		a {
+			text-decoration: none;
+			color: inherit;
+
+			&:hover {
+				color: $bright-blue;
+			}
+		}
 	}
 }
 
 .socials {
+	display: flex;
+	justify-content: center;
+
 	img {
-		margin-right: 1rem;
+		max-width: 1.5rem;
+
+		&:not(:last-child) {
+			margin-right: 2rem;
+		}
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
